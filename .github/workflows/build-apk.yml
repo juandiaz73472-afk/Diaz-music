@@ -1,9 +1,11 @@
 name: Crear APK de Diaz Music
 
 on:
+  "on":
   workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   construir:
